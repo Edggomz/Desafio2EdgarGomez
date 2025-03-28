@@ -1,36 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
+   font-family: "Boldonse", system-ui;
     margin: 0;
     padding: 0;
     background-color: #ffcbcb;
     color: #000000;
  }
+ .logo img{
+   width: 200px;
+   border-radius: 100px;
+   
+ }
+ header  {
+   text-align: center;
+   background-color: #ffc0cb;
+
+ }
  nav {
-    display: flex;
     justify-content: center;
     align-items: center; 
     gap: 20px;
     padding: 10px 0;
  }
  .NavBarra {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #ffc0cb;
-    padding: 15px 30px;
+    padding: 12px 30px;
  }
  .nav-links {
     text-decoration: none;
-    display: flex;
+    display: inline;
     gap: 20px;
  }
  .nav-links li{
-    display: inline;
+   display: inline;
+   padding: 60px;
+   font-size: 25px;
+
  }
  .nav-links a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+
     padding: 5px;
  }
  .nav-links a.Rayita {
@@ -43,17 +55,49 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
  }
- .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    text-align: center;
- }
- .logo img {
-    width: 150px; 
- }
+ .productos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
 
- 
+}
+.card {
+   border-radius: 8px;
+   padding: 15px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   width: 400px;
+}
+.card img {
+   width: 100%;
+   border-radius: 8px;
+}
+
+.destacado {
+   text-align: center;
+   margin: 40px 0;
+}
+.destacado-card {
+   display: inline-block;
+   padding: 20px;
+   border: 2px solid #ffe5f2;
+   margin: 55px;
+   background-color: #ffe4e1;
+   
+}
+button {
+   background-color: #ff69b4;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+
+}
+button a{
+   text-decoration: none;
+   color: #000000;
+}
  footer {
     background-color: #d69f9f;
     color: rgb(0, 0, 0);

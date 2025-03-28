@@ -1,41 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
+   font-family: "Boldonse", system-ui;
     margin: 0;
     padding: 0;
     background-color: #ffcbcb;
     color: #000000;
  }
- .NavBarra {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffc0cb;
-    padding: 15px 30px;
- }
- .nav-links {
-    text-decoration: none;
-    display: flex;
-    gap: 20px;
- }
- .nav-links li{
-    display: inline;
- }
- .nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 5px;
- }
- .nav-links a.Rayita {
-    text-decoration: underline;
- }
- .Eslogan {
-    text-align: center;
-    padding: 30px;
-    background-color: #ffe4e1;
-    font-size: 1.5rem;
-    font-weight: bold;
- }
+.logo img{
+  width: 200px;
+  border-radius: 100px;
+  
+}
+header  {
+  text-align: center;
+  background-color: #ffc0cb;
+
+}
+nav {
+   justify-content: center;
+   align-items: center; 
+   gap: 20px;
+   padding: 10px 0;
+}
+.NavBarra {
+   justify-content: space-between;
+   background-color: #ffc0cb;
+   padding: 12px 30px;
+}
+.nav-links {
+   text-decoration: none;
+   display: inline;
+   gap: 20px;
+}
+.nav-links li{
+  display: inline;
+  padding: 60px;
+  font-size: 25px;
+
+}
+.nav-links a {
+   text-decoration: none;
+   color: #333;
+   font-weight: bold;
+
+   padding: 5px;
+}
+.nav-links a.Rayita {
+   text-decoration: underline;
+}
  .productos {
     display: flex;
     flex-wrap: wrap;
@@ -55,6 +67,53 @@ body {
     width: 100%;
     border-radius: 8px;
  }
+ .destacado {
+   text-align: center;
+   margin: 100px 0;
+}
+.destacado-card {
+   display: inline-block;
+   padding: 25px;
+   border: 2px solid #ff69b4;
+   
+}
+
+
+.info {
+   background-color: #ffcbcb;
+float: left ;
+ }
+ 
+ .info img {
+   align-items: center;
+   width: 200px;
+   float: right ;
+
+ }
+ 
+ .info button {
+   border-radius: 30px;
+   overflow: hidden;
+   background-color: rgb(255, 255, 255);
+   color: black;
+   text-decoration: none;
+ margin: 95px;
+ }
+ 
+ .info a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+ }
+ 
+button {
+   display: flex;
+   background-color: #ff69b4;
+   color: white;
+   border-radius: 22.5%;
+   border: none;
+   padding: 40px 50px;
+   cursor: pointer;
+}
  footer {
     background-color: #d69f9f;
     color: rgb(0, 0, 0);
